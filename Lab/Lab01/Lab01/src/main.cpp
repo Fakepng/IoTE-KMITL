@@ -14,7 +14,7 @@ int problemNo = 1;
 
 unsigned long perviousMillis = 0;
 
-const long interval = 100;
+const long interval = 1000;
 
 void setup() {
   pinMode(ledPin1, OUTPUT);
