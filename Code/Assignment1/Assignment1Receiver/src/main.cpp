@@ -23,7 +23,7 @@ void loop() {
   Serial.print("Value received: ");
   Serial.println(mappedLdrStatus);
 
-  if (mappedLdrStatus > 600) {
+  if (mappedLdrStatus > 900) {
     digitalWrite(ledPin, HIGH);
   } else {
     digitalWrite(ledPin, LOW);
